@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+  }
+  
+body {
+    background-color: beige;
+    text-align: center;
+}
+
+.header {
+    text-align: center;
+}
+
+.top-menu {
+    margin-right: auto;
+    margin-left: auto;
+    border: 3px solid green;  
+    margin-bottom: 10px; 
+    padding: 10px;
+}
+
+.list {
+    display: table;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+lable {
+    padding: 3px;
+}
+
+input[type=text], input[type=number]{
+    border-radius: 4px;
+}
+
+.title {
+    border: none;
+    background-color: beige;
+    text-decoration: underline;
+    font-size: 20px
+}
+
+.title:hover{
+    color: green;
+}
+
+.bookmark-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    margin: 10px
+}
